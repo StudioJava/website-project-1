@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.font-100{
+	font-family: roboto;
+	font-weight: 100;
+}
+.font-300{
+	font-family: roboto;
+	font-weight: 300;
+}
+.font-600{
+	font-family: roboto;
+	font-weight: 600;
+	letter-spacing: 2.3px;
+}
+.brand-image {
+	width: 60%;
+	margin-right: 10px;
+}
+.bg-secondary{
+	background: #3B393C !important;
+}
+.layout-hero {
+	color: white;
+	line-height: 2em;
+	background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+min-height: 80vh;
+
+}
+p::first-letter {
+    font-size: 200%;
+    padding-right:2px;
+}
+ h5 a {
+	color: black !important;
+	text-decoration: none !important;
+}
+.title-1{
+	letter-spacing: 3px;
+	font-weight: 300;
+	
+}
+.title-2 {
+	font-family: 'Indie Flower', cursive;
+}
+.cards-bg {
+background: #636363;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #a2ab58, #636363);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #a2ab58, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.card-length {
+	min-height: 200px !important;
+}
+.container-footer{
+	min-height: 250px !important;
+	
+}
+
+/*Map*/
+.map {
+	border: 1px white solid;
+	padding: 6px 4px 0px !important;
+	border-radius: 10px;
+	
+}
+/*HOURS*/
+
+
+
+.business-hours .title {
+font-size: 20px;
+color: #BBB;
+text-transform: uppercase;
+padding-left: 5px;
+border-left: 4px solid #ffac0c; 
+}
+.business-hours li {
+color: #888;
+line-height: 30px;
+border-bottom: 1px solid #333; 
+}
+.business-hours li:last-child {
+border-bottom: none; 
+}
+.business-hours .opening-hours li.today {
+color: #ffac0c; 
+}
+
+
+/*Tabs*/
+
+
+:root {/*
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+	
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+	
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;*/
+
+	
+
+
+
+}
+
+.pt2 {
+}
+.pt4 {
+}
